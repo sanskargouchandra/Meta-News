@@ -1,0 +1,49 @@
+{
+  "status": "ok",
+  "totalResults": 4,
+  "articles": [
+    {
+      "source": { "id": "cbs-news", "name": "CBS News" },
+      "author": "CBS News",
+      "title": "History of the Mustang, one of America's most iconic cars",
+      "description": "Mustangs are heading into their sixth decade. The iconic car has a strong history in the United States, but the brand is continuing to innovate and push forward. Kris van Cleave reports on the brand's history and what's to come.",
+      "url": "https://www.cbsnews.com/video/history-of-the-mustang-one-of-americas-most-iconic-cars/",
+      "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2023/09/02/c4126228-2b35-4f9f-9339-f76a2c1c08dd/thumbnail/1200x630/53861bc68f8726b302d874bf62f0e42a/0902-satmo-womenofmustang-kvc-2259331-640x360.jpg?v=bd30f47a894d621fb3691fc64d1442e9",
+      "publishedAt": "2023-09-02T17:17:01+00:00",
+      "content": "Watch CBS News\r\nCopyright ©2023 CBS Interactive Inc. All rights reserved.\r\nGet browser notifications for breaking news, live events, and exclusive reporting.\r\nNot NowTurn On"
+    },
+    {
+      "source": { "id": "gruenderszene", "name": "Gruenderszene" },
+      "author": null,
+      "title": "Wie verdient DHDL-Investor Carsten Maschmeyer eigentlich sein Geld?",
+      "description": "Bei \"Die Höhle der Löwen\" investiert Carsten Maschmeyer in Startups. Woher kommt dieses Geld? Und was passiert dann damit?",
+      "url": "https://www.businessinsider.de/gruenderszene/business/wie-verdient-dhdl-investor-carsten-maschmeyer-eigentlich-sein-geld-september-2023/",
+      "urlToImage": "https://cdn.businessinsider.de/wp-content/uploads/2022/04/carsten-maschmeyer-reado-hoehle-er-loewen-e1666190153955.jpg?ver=1666190156",
+      "publishedAt": "2023-09-01T10:05:28+00:00",
+      "content": "Bei Die Höhle der Löwen investiert Carsten Maschmeyer in Startups. Woher kommt dieses Geld? Und was passiert dann damit?Wenn Carsten Maschmeyer bei Die Höhle der Löwen investiert, gehen schnell 100.0… [+5874 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-times",
+        "name": "The Washington Times"
+      },
+      "author": "Tom Howell Jr.",
+      "title": "Congress fights for the life of AM radio",
+      "description": "The threat of eradicating AM radio in American cars produced a rare scene of bipartisanship in Congress on Tuesday when lawmakers rallied to the defense of the staticky broadcasts.",
+      "url": "https://www.washingtontimes.com/news/2023/jun/6/congress-fights-life-am-radio/",
+      "urlToImage": "https://twt-thumbs.washtimes.com/media/image/2023/05/18/AM_Radio_in_Cars_Congress_50517_c0-106-3951-2410_s1200x700.jpg?e7ec91e5be89a165f18c319a3917c752e74cc158",
+      "publishedAt": "2023-06-06T13:46:55Z",
+      "content": "The threat of eradicating AM radio in American cars produced a rare scene of bipartisanship in Congress on Tuesday when lawmakers rallied to the defense of the staticky broadcasts.\r\nDemocratic and Re… [+6484 chars]"
+    },
+    {
+      "source": { "id": "new-scientist", "name": "New Scientist" },
+      "author": null,
+      "title": "Ford patents car that can repossess itself and drive back to showroom",
+      "description": "A new patent allows Ford to build cars that take action if the owner falls behind on payments by playing annoying sounds – or even driving themselves back to the seller",
+      "url": "https://www.newscientist.com/article/2361657-ford-patents-car-that-can-repossess-itself-and-drive-back-to-showroom/",
+      "urlToImage": "https://images.newscientist.com/wp-content/uploads/2023/02/28122734/SEI_146189854.jpg",
+      "publishedAt": "2023-02-28T00:00:00Z",
+      "content": "By Matthew Sparkes\r\nFord wants to build cars that repossess themselves, although the technology can’t be used on current models like the Ford Puma\r\nFord Motor Company\r\nFord has been granted a patent … [+2590 chars]"
+    }
+  ]
+}
