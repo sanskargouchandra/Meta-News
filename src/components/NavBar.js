@@ -1,6 +1,8 @@
 // import PropTypes from 'prop-types'
 import React, { Component } from "react";
-import "./style.scss";
+import "./NavBar.scss";
+import { Link } from "react-router-dom";
+
 
 export class NavBar extends Component {
   // static propTypes = {}
@@ -13,7 +15,7 @@ export class NavBar extends Component {
             <div className="nav left ">
               <span className="gradient skew">
                 <h1 className="logo un-skew p-3">
-                  <a href="/home">Meta-News</a>
+                  <Link to="/home">Meta-News</Link>
                 </h1>
               </span>
               <button id="menu" className="btn-nav">
@@ -21,26 +23,36 @@ export class NavBar extends Component {
               </button>
             </div>
             <div className="nav right">
-              <a href="/home" className="nav-link active">
+              <Link to="/" className="nav-link">
                 <span className="nav-link-span">
-                  <span className="u-nav">Home</span>
+                  <span className="u-nav">Top Headlins</span>
                 </span>
-              </a>
-              <a href="/about" className="nav-link">
+              </Link>
+              <Link to="/health" className="nav-link">
                 <span className="nav-link-span">
-                  <span className="u-nav">About</span>
+                  <span className="u-nav">health</span>
                 </span>
-              </a>
-              <a href="/work" className="nav-link">
+              </Link>
+              <Link to="/science" className="nav-link">
                 <span className="nav-link-span">
-                  <span className="u-nav">Work</span>
+                  <span className="u-nav">science</span>
                 </span>
-              </a>
-              <a href="/contact" className="nav-link">
+              </Link>
+              <Link to="/sports" className="nav-link">
                 <span className="nav-link-span">
-                  <span className="u-nav">Contact</span>
+                  <span className="u-nav">sports</span>
                 </span>
-              </a>
+              </Link>
+              <Link to="/technology" className="nav-link">
+                <span className="nav-link-span">
+                  <span className="u-nav">technology</span>
+                </span>
+              </Link>
+              <Link to="/entertainment" className="nav-link">
+                <span className="nav-link-span">
+                  <span className="u-nav">entertainment</span>
+                </span>
+              </Link>
             </div>
           </nav>
         </header>
@@ -49,4 +61,6 @@ export class NavBar extends Component {
   }
 }
 
+
 export default NavBar;
+
