@@ -1,39 +1,22 @@
 import React, { Component } from "react";
-import "./card.scss";
+import "./card.css";
 
 export class NewsItem extends Component {
   render() {
-    let {title, description, imageUrl} = this.props;
+    let { title, imageUrl, newsUrl } = this.props;
 
     return (
-      <div>
-        <div className="container">
-          <div className="post">
-            <div className="header_post">
-              <img
-                src={imageUrl}
-                alt=""
-              />
-            </div>
+      <div className="">
+        <div className="card">
+          <img src={!imageUrl? "https://seeklogo.com/images/B/bbc-world-news-logo-10255C2E3B-seeklogo.com.png" : imageUrl} className="card-img-top main" alt="..." />
 
-            <div className="body_post">
-              <div className="post_content">
-                <h1>{title}</h1>
-                <p>
-                  {description}
-                </p>
-
-                <div className="container_infos">
-                  <div className="postedBy">
-                    <span>author</span>
-                    John Doe
-                  </div>
-
-                 
-                </div>
-              </div>
-            </div>
+          <div className="card-details">
+            <h5 class="card-title text-title">{title} </h5>
+            {/* <p class="card-text txt">
+            {description}...
+            </p> */}
           </div>
+          <a href={newsUrl} target="_blank" rel="noreferrer"><button className="card-button">Read More</button></a>
         </div>
       </div>
     );
@@ -41,3 +24,5 @@ export class NewsItem extends Component {
 }
 
 export default NewsItem;
+
+
