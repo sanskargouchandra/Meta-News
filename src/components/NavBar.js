@@ -15,7 +15,7 @@ export class NavBar extends Component {
             <div className="nav left ">
               <span className="gradient skew">
                 <h1 className="logo un-skew p-3">
-                  <Link to="/home">Meta-News</Link>
+                  <Link to="/ ">Meta-News</Link>
                 </h1>
               </span>
               <button id="menu" className="btn-nav">

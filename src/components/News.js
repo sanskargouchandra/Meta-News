@@ -4,6 +4,7 @@ import "./News.css";
 import Spinner from "./Spinner";
 import PropTypes from 'prop-types'
 
+
 export class News extends Component {
 
   static defaultProps = {
@@ -18,23 +19,28 @@ export class News extends Component {
   }
 
 
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       articles: [],
       loading: false, //for loading
       page: 1,
     };
+    document.title = `${this.props.headline} - Meta News n`
   }
 
   async componentDidMount() {
+    this.props.setProgress(0);
     let url =
-      `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=07220f8636694150a9e1a7be4fd9113d&page=1&pageSize=${this.props.pagesize}`;
+      `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=${this.props.apiKey}&page=1&pageSize=${this.props.pagesize}`;
       this.setState({loading: true}) //for loading on
     let data = await fetch(url);
+    this.props.setProgress(30);
     let parsedData = await data.json();
+    this.props.setProgress(70);
     this.setState({ articles: parsedData.articles , totalResults: parsedData.totalResults, loading: false  });//for loading off
+    this.props.setProgress(100);
   }
 
   handelPrevClick = async () => {
@@ -42,20 +48,22 @@ export class News extends Component {
     if(this.state.page - 1 < 1 ){
         // Noothing to do if page count is less than 1 
     }else{
-      
-      let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=07220f8636694150a9e1a7be4fd9113d&page=${
+      this.props.setProgress(0);
+      let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${
         this.state.page - 1
       }&pageSize=${this.props.pagesize}`;
       this.setState({loading: true}) //for loading onn
       let data = await fetch(url);
+      this.props.setProgress(30);
       let parsedData = await data.json();
-      
+      this.props.setProgress(70);
   
       this.setState({
         page: this.state.page - 1,
         articles: parsedData.articles,
         loading: false 
       });//for loading off
+      this.props.setProgress(100);
     }
 
   };
@@ -63,20 +71,22 @@ export class News extends Component {
   handelNextClick = async () => { 
 
     if(!(this.state.page + 1 > Math.ceil(this.state.totalResults/this.props.pagesize))){
-
-      let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=07220f8636694150a9e1a7be4fd9113d&page=${
+      this.props.setProgress(0);
+      let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${
         this.state.page + 1
       }&pageSize=${this.props.pagesize} `;
       this.setState({loading: true})
       let data = await fetch(url);
+      this.props.setProgress(30);
       let parsedData = await data.json();
-    
+      this.props.setProgress(70);
   
       this.setState({
         page: this.state.page + 1,
         articles: parsedData.articles,
         loading: false
       });
+      this.props.setProgress(100);
     }else{
       // Noothing to do if page count is greater than the no of resukt
     }
