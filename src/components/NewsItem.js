@@ -11,8 +11,8 @@ export class NewsItem extends Component {
           <img src={!imageUrl? "https://seeklogo.com/images/B/bbc-world-news-logo-10255C2E3B-seeklogo.com.png" : imageUrl} className="card-img-top main" alt="..." />
 
           <div className="card-details">
-            <h5 class="card-title text-title">{title} </h5>
-            {/* <p class="card-text txt">
+            <h5 className="card-title text-title">{title} </h5>
+            {/* <p className="card-text txt">
             {description}...
             </p> */}
           </div>

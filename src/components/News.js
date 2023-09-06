@@ -111,12 +111,12 @@ export class News extends Component {
             <div className="bottomsec">
               <div className="footerbtn">
                 <div className="prev">
-                  <button class="learn-more">
-                    <span class="circle" aria-hidden="true">
-                      <span class="icon arrow1"></span>
+                  <button className="learn-more">
+                    <span className="circle" aria-hidden="true">
+                      <span className="icon arrow1"></span>
                     </span>
                     <span
-                      class="button-text"
+                      className="button-text"
                       aria-disabled={this.state.page <= 1}
                       onClick={this.handelPrevClick}
                     >
@@ -126,11 +126,11 @@ export class News extends Component {
                 </div>
 
                 <div className="nxt">
-                  <button class="learn-more">
-                    <span class="circle" aria-hidden="true">
-                      <span class="icon arrow2"></span>
+                  <button className="learn-more">
+                    <span className="circle" aria-hidden="true">
+                      <span className="icon arrow2"></span>
                     </span>
-                    <span class="button-text" onClick={this.handelNextClick}>
+                    <span className="button-text" onClick={this.handelNextClick}>
                       Next page
                     </span>
                   </button>
