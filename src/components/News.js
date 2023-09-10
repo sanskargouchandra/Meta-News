@@ -27,7 +27,7 @@ export class News extends Component {
       loading: false, //for loading
       page: 1,
     };
-    document.title = `${this.props.headline} - Meta News n`
+    document.title = `${this.props.headline} - Meta News`
   }
 
   async componentDidMount() {
@@ -96,7 +96,7 @@ export class News extends Component {
     return (
       <div className=" outer">
         <div className="container my-3 " style={{ display: "contents" }}>
-          <h1 className="p-2  text-white text-center">Meta-News's: {this.props.headline} Section</h1>
+          <h1 className="p-2  text-white text-center" style={{marginTop: "62px"}}>Meta-News's: {this.props.headline} Section</h1>
           {this.state.loading && <Spinner/>}
           <div className="row ">
             {!this.state.loading && this.state.articles.map((element) => {

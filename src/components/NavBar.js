@@ -1,4 +1,3 @@
-// import PropTypes from 'prop-types'
 import React, { Component } from "react";
 import "./NavBar.scss";
 import { Link } from "react-router-dom";
@@ -11,7 +10,7 @@ export class NavBar extends Component {
     return (
       <>
         <header id="nav-wrapper ">
-          <nav id="nav" className="navbar navbar-expand-lg ">
+          <nav id="nav" className="navbar navbar-expand-lg fixed-top">
             <div className="nav left ">
               <span className="gradient skew">
                 <h1 className="logo un-skew p-3">
@@ -63,4 +62,3 @@ export class NavBar extends Component {
 
 
 export default NavBar;
-
