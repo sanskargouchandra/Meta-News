@@ -56,7 +56,7 @@ https://github.com/sanskargouchandra/Meta-News/assets/117097248/b5dfa3e9-5b46-4e
 
 ### :key: Setup Environment Variables
 
-Go to NewsAPI site ande generate free API key.
+Go to NewsAPI site ande generate free API key.</br>
 To run this project, you will need to add the following environment variables to your .env file
 
 `REACT_APP_NEWS_API=*********`
@@ -66,6 +66,8 @@ Paste your API key
 ### :gear: Installation
 
 ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+</br>
+Open terminal and paste the command given below.....
 
 ```
 npm install
