@@ -77,6 +77,6 @@ npm install
 rum start
 ```
 </br>
-</br>
-Open http://localhost:3000 to view it in your browser.
+
+`Open http://localhost:3000 to view it in your browser.`
 <div align="center">Don't forget to leave a star ⭐️</div>
