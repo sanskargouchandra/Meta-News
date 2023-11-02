@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+<div align="center">
+  
+  # Meta-News with React!
+  
+  <p>
+Meta-News is an React News WebApp in which we use Hooks and API fetch of NEWS API. With help of Tailwind CSS we Made an Attractive and Responsive WebApp.
+  </p>
+  
+  
+<!-- Badges -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="https://github.com/sanskargouchandra/Meta-News" target="_blank">![](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)</a>
+![](https://img.shields.io/badge/Maintained-Yes-indigo)
+![](https://img.shields.io/github/forks/SashenJayathilaka/AMAZON-Clone.svg)
+![](https://img.shields.io/github/stars/SashenJayathilaka/AMAZON-Clone.svg)
+![](https://img.shields.io/github/issues/SashenJayathilaka/AMAZON-Clone)
+![](https://img.shields.io/github/last-commit/SashenJayathilaka/AMAZON-Clone)
 
-## Available Scripts
+<h4>
+    <a href="https://github.com/sanskargouchandra/Meta-News">View Demo</a>
+  <span> · </span>
+    <a href="https://github.com/sanskargouchandra/Meta-News/blob/master/README.md">Documentation</a>
+  <span> · </span>
+    <a href="https://github.com/sanskargouchandra/Meta-News/issues">Report Bug</a>
+  <span> · </span>
+    <a href="https://github.com/sanskargouchandra/Meta-News/issues">Request Feature</a>
+  </h4>
+</div>
 
-In the project directory, you can run:
+<br />
 
-### `npm start`
+<!-- Table of Contents -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## :star2: About the Project
 
-### `npm test`
+<!-- Screenshots -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### :camera: Demo Video
 
-### `npm run build`
+<div style="display: flex" align="center"><br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://github.com/sanskargouchandra/Meta-News/assets/117097248/b5dfa3e9-5b46-4e29-9d77-8e53fbe46807
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+</div>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
+![forthebadge](https://forthebadge.com/images/badges/for-you.svg)
+![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- Env Variables -->
 
-## Learn More
+### :key: Setup Environment Variables
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Go to NewsAPI site ande generate free API key.
+To run this project, you will need to add the following environment variables to your .env file
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`REACT_APP_NEWS_API=*********`
 
-### Code Splitting
+Paste your API key
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### :gear: Installation
 
-### Analyzing the Bundle Size
+![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+npm install
+```
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+rum start
+```
+<div align="center">Don't forget to leave a star ⭐️</div>
