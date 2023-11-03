@@ -11,10 +11,10 @@ Meta-News is an React News WebApp in which we use Hooks and API fetch of NEWS AP
 
 <a href="https://github.com/sanskargouchandra/Meta-News" target="_blank">![](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)</a>
 ![](https://img.shields.io/badge/Maintained-Yes-indigo)
-![](https://img.shields.io/github/forks/SashenJayathilaka/AMAZON-Clone.svg)
+![](https://img.shields.io/github/forks/sanskargouchandra/Meta-News.svg)
 ![](https://img.shields.io/github/stars/SashenJayathilaka/AMAZON-Clone.svg)
-![](https://img.shields.io/github/issues/SashenJayathilaka/AMAZON-Clone)
-![](https://img.shields.io/github/last-commit/SashenJayathilaka/AMAZON-Clone)
+![](https://img.shields.io/github/issues/sanskargouchandra/Meta-News)
+![](https://img.shields.io/github/last-commit/sanskargouchandra/Meta-News.svg)
 
 <h4>
     <a href="https://github.com/sanskargouchandra/Meta-News">View Demo</a>
